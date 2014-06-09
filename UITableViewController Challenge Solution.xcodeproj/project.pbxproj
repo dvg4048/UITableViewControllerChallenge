@@ -14,13 +14,13 @@
 		F6CA19AF1945E44700AA3869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CA19AE1945E44700AA3869 /* main.m */; };
 		F6CA19B31945E44700AA3869 /* DVGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CA19B21945E44700AA3869 /* DVGAppDelegate.m */; };
 		F6CA19B61945E44700AA3869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CA19B41945E44700AA3869 /* Main.storyboard */; };
-		F6CA19B91945E44700AA3869 /* DVGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CA19B81945E44700AA3869 /* DVGViewController.m */; };
 		F6CA19BB1945E44700AA3869 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CA19BA1945E44700AA3869 /* Images.xcassets */; };
 		F6CA19C21945E44700AA3869 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CA19C11945E44700AA3869 /* XCTest.framework */; };
 		F6CA19C31945E44700AA3869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CA19A21945E44700AA3869 /* Foundation.framework */; };
 		F6CA19C41945E44700AA3869 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CA19A61945E44700AA3869 /* UIKit.framework */; };
 		F6CA19CC1945E44700AA3869 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6CA19CA1945E44700AA3869 /* InfoPlist.strings */; };
 		F6CA19CE1945E44700AA3869 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CA19CD1945E44700AA3869 /* UITableViewController_Challenge_SolutionTests.m */; };
+		F6CA19D91945E7E300AA3869 /* DVGChallengeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CA19D81945E7E300AA3869 /* DVGChallengeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		F6CA19B11945E44700AA3869 /* DVGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVGAppDelegate.h; sourceTree = "<group>"; };
 		F6CA19B21945E44700AA3869 /* DVGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVGAppDelegate.m; sourceTree = "<group>"; };
 		F6CA19B51945E44700AA3869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F6CA19B71945E44700AA3869 /* DVGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVGViewController.h; sourceTree = "<group>"; };
-		F6CA19B81945E44700AA3869 /* DVGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVGViewController.m; sourceTree = "<group>"; };
 		F6CA19BA1945E44700AA3869 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F6CA19C01945E44700AA3869 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CA19C11945E44700AA3869 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F6CA19C91945E44700AA3869 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		F6CA19CB1945E44700AA3869 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6CA19CD1945E44700AA3869 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		F6CA19D71945E7E300AA3869 /* DVGChallengeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVGChallengeTableViewController.h; path = ../DVGChallengeTableViewController.h; sourceTree = "<group>"; };
+		F6CA19D81945E7E300AA3869 /* DVGChallengeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DVGChallengeTableViewController.m; path = ../DVGChallengeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				F6CA19B11945E44700AA3869 /* DVGAppDelegate.h */,
 				F6CA19B21945E44700AA3869 /* DVGAppDelegate.m */,
 				F6CA19B41945E44700AA3869 /* Main.storyboard */,
-				F6CA19B71945E44700AA3869 /* DVGViewController.h */,
-				F6CA19B81945E44700AA3869 /* DVGViewController.m */,
+				F6CA19D71945E7E300AA3869 /* DVGChallengeTableViewController.h */,
+				F6CA19D81945E7E300AA3869 /* DVGChallengeTableViewController.m */,
 				F6CA19BA1945E44700AA3869 /* Images.xcassets */,
 				F6CA19A91945E44700AA3869 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6CA19B91945E44700AA3869 /* DVGViewController.m in Sources */,
 				F6CA19B31945E44700AA3869 /* DVGAppDelegate.m in Sources */,
+				F6CA19D91945E7E300AA3869 /* DVGChallengeTableViewController.m in Sources */,
 				F6CA19AF1945E44700AA3869 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

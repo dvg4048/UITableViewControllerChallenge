@@ -1,5 +1,5 @@
 //
-//  DVGViewController.h
+//  DVGChallengeTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Donald Griffin on 6/9/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DVGViewController : UIViewController
+@interface DVGChallengeTableViewController : UITableViewController
 
 @end
